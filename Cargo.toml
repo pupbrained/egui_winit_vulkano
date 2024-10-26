@@ -26,8 +26,8 @@ image = { version = "0.25", optional = true }
 winit = { version = "0.30", default-features = false, features = [ "rwh_06" ] }
 vulkano = { version = "0.34", git = "https://github.com/vulkano-rs/vulkano.git"}
 vulkano-shaders = { version = "0.34", git = "https://github.com/vulkano-rs/vulkano.git"}
+vulkano-util = { version = "0.34", git = "https://github.com/vulkano-rs/vulkano.git"}
 
 [dev-dependencies]
 cgmath = "0.18.0"
 egui_demo_lib = "0.29.1"
-vulkano-util = { version = "0.34", git = "https://github.com/vulkano-rs/vulkano.git"}

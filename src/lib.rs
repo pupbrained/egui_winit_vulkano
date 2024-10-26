@@ -17,3 +17,6 @@ pub use renderer::{CallbackContext, CallbackFn, RenderResources};
 pub use utils::immutable_texture_from_bytes;
 #[cfg(feature = "image")]
 pub use utils::immutable_texture_from_file;
+pub use vulkano;
+pub use vulkano_util;
+pub use winit;
