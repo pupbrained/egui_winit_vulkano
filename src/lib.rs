@@ -19,4 +19,5 @@ pub use utils::immutable_texture_from_bytes;
 pub use utils::immutable_texture_from_file;
 pub use vulkano;
 pub use vulkano_util;
+pub use vulkano_shaders;
 pub use winit;
